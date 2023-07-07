@@ -2,7 +2,6 @@ import { Provider } from "react-redux";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./App.css";
 import Body from "./components/Body";
-import Demo from "./components/Demo";
 import Header from "./components/Header";
 import MainContainer from "./components/MainContainer";
 import WatchPage from "./components/WatchPage";
@@ -21,10 +20,7 @@ const appRouter = createBrowserRouter([
         path: "/watch",
         element: <WatchPage/>
       },
-      {
-        path: "/demo",
-        element: <Demo/>
-      }
+      
     ],
   },
 ]);
